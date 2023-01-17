@@ -8,6 +8,7 @@ submit_button = driver.find_element_by_xpath("//div[@jsname='VlcLAe']//input[@cl
 time.sleep(1)
 submit_button.click()
 driver.get("https://sovcombank.ru")
+#выдает 403 ошибку, при переходе на сайт банка, не смог разобраться с ней =(
 
 
 
